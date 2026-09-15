@@ -25,9 +25,21 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		// YOUR CODE GOES HERE!!!!
+		print("Welcome to the StoryWorld!");
+		System.out.println("Type any Adjevtive: ");
+		String adj = in.nextLine();
+		System.out.println("Type any Verb: ");
+		String Verb = in.nextLine();
+		System.out.println("Type any Noun: ");
+		String Noun = in.nextLine();
+		System.out.println("Type any Number: ");
+		int number1 = in.nextInt(); 
+		
+		System.out.println("Yesterday, I saw a " + adj + " " + Noun + " that could " + Verb + " " + number1 + " times!");
 		
 		
-		
+			
+		                        
 		
 		
 		
@@ -36,6 +48,11 @@ public class Main {
 		
 		
 		in.close();//Don't forget to clean up after yourselves!
+	}
+
+	private static void print(String string) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
